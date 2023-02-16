@@ -1,0 +1,17 @@
+0400 Maschinen
+0620 Büromaschinen_EDV-Anlagen
+1300 Hilfsstoffvorrat
+2000 Lieferforderung
+2700 Kassa
+2800 Bank-Guthaben
+4000 Handelswarenerloese
+5000 Handelswareneinsatz_(WES_20%)
+5100 Fertigungsmatrialverbrauch
+5300 Hilfsmatrialverbrauch
+6000 Fertigungsloehne
+6010 Hilfsloehne
+7010 Abschreibung_von_Sachanlagen
+7700 Versicherungsaufwand
+9000 Kapital
+9850 SBK
+9890 GuV
