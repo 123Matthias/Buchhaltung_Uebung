@@ -12,7 +12,7 @@ import java.io.IOException;
 public class KontenplanReader
 {
     private BufferedReader reader;
-    private ArrayList <String> gameList = new ArrayList<>();
+    private ArrayList <String> kontenNamenListe = new ArrayList<>();
     private String inputPath;
 
     /**
@@ -20,16 +20,16 @@ public class KontenplanReader
      */
     public KontenplanReader()
     {
-        this.inputPath = "C:\\Users\\leite\\OneDrive - HTL Imst\\Dokumente\\IT_Kolleg\\BWM Geig\\BUEB\\Kontenplan.txt";
+        this.inputPath = "Kontenplan.txt";
     }
 
 
-    public ArrayList<String> getKonpenplanAsList() {
+    public ArrayList<String> getKontenplanAsList() {
         try {
             reader = new BufferedReader(new FileReader(this.inputPath));
             String line = reader.readLine();
             while (line != null) {
-                this.gameList.add(line);
+                this.kontenNamenListe.add(line);
                 line = reader.readLine();
                 //  System.out.println(line);
                 // read next line
@@ -41,10 +41,10 @@ public class KontenplanReader
             e.printStackTrace();
         }
 
-        for ( String l : gameList){
+        for ( String l : kontenNamenListe){
             System.out.println(l);
         }
 
-        return this.gameList;
+        return this.kontenNamenListe;
     }
 }

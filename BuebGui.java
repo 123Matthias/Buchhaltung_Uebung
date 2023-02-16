@@ -30,7 +30,7 @@ public class BuebGui
         erzeugeTabelle();
         erstelleLayout();
         erzeugeButton();
-        this.kontenListe = kr.getKonpenplanAsList();
+        this.kontenListe = kr.getKontenplanAsList();
 
     }
 
