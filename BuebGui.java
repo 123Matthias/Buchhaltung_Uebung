@@ -136,7 +136,7 @@ public class BuebGui
             b=0.0;
             c=0.0;
             kosten=0.0;
-
+        
             try{a = Double.parseDouble(meinModel.getValueAt(i, 2).toString());}catch(Exception e){}; 
             try{b = Double.parseDouble(meinModel.getValueAt(i, 3).toString());}catch(Exception e){};
             try{c = Double.parseDouble(meinModel.getValueAt(i, 4).toString());}catch(Exception e){};  
